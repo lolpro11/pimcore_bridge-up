@@ -42,7 +42,7 @@ class DivanteMagentoIntegrationBundle extends AbstractPimcoreBundle
     /**
      * @inheritdoc
      */
-    public function getNiceName()
+    public function getNiceName(): string
     {
         return "Divante Pimcore 5 Magento 2 integration";
     }
@@ -50,7 +50,7 @@ class DivanteMagentoIntegrationBundle extends AbstractPimcoreBundle
     /**
      * @inheritdoc
      */
-    public function getDescription()
+    public function getDescription(): string
     {
         return "Send information about products to Magento 2 eCommerce system";
     }
