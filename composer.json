@@ -24,8 +24,8 @@
     "pimcore/pimcore": "^5.4.0 | ^11.0.0"
   },
   "autoload": {
-    "psr-4": {
-      "Divante\\MagentoIntegrationBundle\\": "/src/Divante"
+    "psr-0": {
+      "Divante\\MagentoIntegrationBundle\\": "/src"
     }
   },
   "minimum-stability": "dev",
