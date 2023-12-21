@@ -85,7 +85,7 @@ class DivanteMagentoIntegrationBundle extends AbstractPimcoreBundle
     /**
      * {@inheritdoc}
      */
-    public function getInstaller(): ?Installer\InstallerInterface
+    public function getInstaller()
     {
         return $this->container->get(Installer::class);
     }
